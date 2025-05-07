@@ -90,7 +90,7 @@ document.addEventListener('mousemove', function(event) {
         const angle = Math.atan2(dy, dx);
         
         const eyeRadius = rect.width / 2;
-        const pupilRadius = 25; // Половина ширины зрачка (50px/2)
+        const pupilRadius = 20; // Половина ширины зрачка (50px/2)
         const maxPupilDistance = eyeRadius - pupilRadius - 2;
         
         if (cursorDistance < eyeRadius * 2) {
